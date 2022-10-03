@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600;700;800;900;1000&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #222222;
+    margin: 0;
+    padding: 0;
+}
+
+body {}
+
+.container {
+    /* display: block; */
+    width: 1240px;
+    margin: auto;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    display: block;
+    text-decoration: none;
+}
+
+/* Heading */
+
+h1 {
+    font-size: 60px;
+    line-height: 66px;
+}
+
+h2 {
+    font-size: 34px;
+    line-height: 37px;
+}
+
+h3 {
+    font-size: 22px;
+    line-height: 29px;
+}
+
+h4 {
+    font-size: 18px;
+    line-height: 23px;
+}
+
+/* Colors */
+
+.white-color {
+    color: #ffffff;
+}
+
+.gray-color {
+    color: #7F7F7F;
+}
+
+.gray-bg {
+    background: #F5F5F5 !important;
+}
+
+.btn {
+    background: #FCBF1B;
+    color: #222222;
+    border-radius: 2px;
+}
+
+.yellow-color {
+    color: #EDA71D;
+}
+
+.flex-sp-between {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Top Nav */
+.top-nav {
+    align-items: center;
+}
+
+.logo {
+    padding: 23.75px 0px;
+}
+
+.top-nav-right>li {
+    padding-left: 15px;
+}
+
+.tel-btn {
+    padding: 7px 15px;
+}
+
+.tel-btn::before {
+    content: '';
+    background: url(../images/telephone.png) no-repeat;
+    padding-left: 25px;
+    background-position: left center;
+
+}
+
+.reqst-qoute {
+    padding: 7px 15px;
+}
+
+.reqst-qoute::before {
+    content: '';
+    background: url(../images/calculator.png) no-repeat;
+    padding-left: 25px;
+    background-position: left center;
+
+}
+
+.search-btn {
+    padding: 10px;
+}
