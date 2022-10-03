@@ -29,6 +29,10 @@ a {
     text-decoration: none;
 }
 
+.pd-tb-82 {
+    padding: 82px 0px;
+}
+
 /* Heading */
 
 h1 {
@@ -236,4 +240,40 @@ h4 {
 .shipping>h3 {
     width: 190px;
     margin: auto;
+}
+
+/* Facilities */
+.section-header {
+    display: flex;
+    align-items: center;
+    padding-bottom: 92px;
+}
+
+.section-header>h2 {
+    width: 425px;
+    text-transform: uppercase;
+}
+
+.section-header>p {
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 31px;
+    padding-left: 24px;
+    padding-right: 48px;
+    border-left: 4px solid #FCBF1B;
+}
+
+.gray-border-bottom {
+    border-bottom: 10px solid rgba(0, 0, 0, 0.08);
+}
+
+.facility-list {}
+
+.facility-list>li {}
+
+.facility-list>li::before {
+    content: "";
+    background: url(../images/check.png) no-repeat;
+    padding-left: 25px;
+    background-position: left center;
 }
