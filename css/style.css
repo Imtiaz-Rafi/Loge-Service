@@ -29,6 +29,10 @@ a {
     text-decoration: none;
 }
 
+.pd-tb-82 {
+    padding: 82px 0px;
+}
+
 /* Heading */
 
 h1 {
@@ -54,7 +58,7 @@ h4 {
 /* Colors */
 
 .white-color {
-    color: #ffffff;
+    color: #ffffff !important;
 }
 
 .gray-color {
@@ -66,6 +70,8 @@ h4 {
 }
 
 .btn {
+    cursor: pointer;
+    border: none;
     background: #FCBF1B;
     color: #222222;
     border-radius: 2px;
@@ -83,6 +89,7 @@ h4 {
 /* Top Nav */
 .top-nav {
     align-items: center;
+    margin-top: 20px;
 }
 
 .logo {
@@ -107,6 +114,7 @@ h4 {
 
 .reqst-qoute {
     padding: 7px 15px;
+    text-transform: uppercase;
 }
 
 .reqst-qoute::before {
@@ -119,4 +127,153 @@ h4 {
 
 .search-btn {
     padding: 10px;
+}
+
+.navbar {
+    padding-top: 20px;
+    padding-bottom: 24px;
+    margin-bottom: 9px;
+}
+
+.navbar>li {
+    padding: 0px 55px;
+    border-left: 1px solid rgba(0, 0, 0, 0.11);
+    border-collapse: collapse;
+}
+
+.navbar>li:last-child {
+    border-right: 1px solid rgba(0, 0, 0, 0.11);
+}
+
+.navbar>li>a.selected,
+.navbar>li>a:hover {
+    padding-bottom: 2px;
+    border-bottom: 3px solid #FCBF1B;
+    transition: 0.10s ease-in-out;
+}
+
+/* Banner */
+
+.banner {
+    background:
+        linear-gradient(180deg,
+            rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url(../images/air-plane.png) no-repeat;
+    background-size: cover;
+    background-position: center center;
+    align-items: center;
+}
+
+.banner-contents {
+    padding-top: 229px;
+    padding-bottom: 49px;
+}
+
+.banner-items {
+    text-align: center;
+}
+
+.banner-items>h1 {
+    padding-bottom: 29px;
+}
+
+.banner-items>p {
+    font-size: 29px;
+    line-height: 36px;
+    padding-bottom: 46px;
+}
+
+.offer-btn {
+    padding: 16px 26px;
+    font-size: 13px;
+    line-height: 13px;
+    text-transform: uppercase;
+}
+
+.banner-bottom {
+    padding-top: 6px;
+    text-align: center;
+}
+
+.warehouse {
+    background:
+        linear-gradient(180deg,
+            rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url(../images/warehouse.png) no-repeat;
+}
+
+.transport {
+    background:
+        linear-gradient(180deg,
+            rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url(../images/transport.png) no-repeat;
+}
+
+.shipping {
+    background:
+        linear-gradient(180deg,
+            rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url(../images/shipping.png) no-repeat;
+}
+
+.warehouse,
+.transport,
+.shipping {
+    width: 33%;
+    background-size: cover;
+    background-position: center center;
+    align-items: center;
+    padding-top: 108px;
+    padding-bottom: 65px;
+}
+
+.warehouse>h3 {
+    width: 245px;
+    margin: auto;
+}
+
+.transport>h3 {
+    width: 184px;
+    margin: auto;
+}
+
+.shipping>h3 {
+    width: 190px;
+    margin: auto;
+}
+
+/* Facilities */
+.section-header {
+    display: flex;
+    align-items: center;
+    padding-bottom: 92px;
+}
+
+.section-header>h2 {
+    width: 425px;
+    text-transform: uppercase;
+}
+
+.section-header>p {
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 31px;
+    padding-left: 24px;
+    padding-right: 48px;
+    border-left: 4px solid #FCBF1B;
+}
+
+.gray-border-bottom {
+    border-bottom: 10px solid rgba(0, 0, 0, 0.08);
+}
+
+.facility-list {}
+
+.facility-list>li {}
+
+.facility-list>li::before {
+    content: "";
+    background: url(../images/check.png) no-repeat;
+    padding-left: 25px;
+    background-position: left center;
 }
