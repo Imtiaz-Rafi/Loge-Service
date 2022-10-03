@@ -83,6 +83,7 @@ h4 {
 /* Top Nav */
 .top-nav {
     align-items: center;
+    margin-top: 20px;
 }
 
 .logo {
@@ -119,4 +120,27 @@ h4 {
 
 .search-btn {
     padding: 10px;
+}
+
+.navbar {
+    padding-top: 20px;
+    padding-bottom: 24px;
+    margin-bottom: 9px;
+}
+
+.navbar>li {
+    padding: 0px 55px;
+    border-left: 1px solid rgba(0, 0, 0, 0.11);
+    border-collapse: collapse;
+}
+
+.navbar>li:last-child {
+    border-right: 1px solid rgba(0, 0, 0, 0.11);
+}
+
+.navbar>li>a.selected,
+.navbar>li>a:hover {
+    padding-bottom: 2px;
+    border-bottom: 3px solid #FCBF1B;
+    transition: 0.10s ease-in-out;
 }
