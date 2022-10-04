@@ -388,3 +388,44 @@ footer {
     display: flex;
     gap: 25px;
 }
+
+.footer-links {}
+
+.footer-links>li {
+    padding-bottom: 22px;
+}
+
+.footer-links>li>a {
+    font-size: 14px;
+    line-height: 18px;
+    color: #FFFFFF;
+}
+
+.footer-links>li>a:hover {
+    text-decoration: underline;
+}
+
+.footer-contact>li {
+    padding-bottom: 25px;
+}
+
+.footer-contact>li>a {
+    width: 230px;
+    font-size: 17px;
+    line-height: 23px;
+    color: #FFFFFF;
+    padding-bottom: 5px;
+}
+
+.footer-contact>li>a:hover {
+    text-decoration: underline;
+}
+
+.footer-contact>li>p {
+    
+    font-size: 13px;
+    line-height: 18px;
+    color: #7F7F7F;
+}
+
+.detail-text {}
