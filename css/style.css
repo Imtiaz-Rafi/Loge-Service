@@ -426,11 +426,17 @@ footer {
     text-decoration: underline;
 }
 
-.footer-contact>li>p {
+.footer-contact>li>.detail-text {
 
     font-size: 13px;
     line-height: 18px;
     color: #7F7F7F;
 }
 
-.detail-text {}
+.footer>.rights-loge {
+    padding-bottom: 29px;
+    text-align: right;
+    color: #7F7F7F;
+    font-size: 14px;
+    line-height: 18px;
+}
