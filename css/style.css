@@ -75,6 +75,7 @@ h4 {
     background: #FCBF1B;
     color: #222222;
     border-radius: 2px;
+    text-transform: uppercase;
 }
 
 .yellow-color {
@@ -300,4 +301,45 @@ h4 {
 
 .facilities-items>h4 {
     padding-bottom: 11px;
+}
+
+.mini-slider-content {}
+
+.mini-slider-content>img {
+    padding-bottom: 29px;
+}
+
+.mini-slider-content>h3 {
+    padding-bottom: 15px;
+}
+
+.mini-slider-content>p {
+    width: 320px;
+    padding-bottom: 25px;
+}
+
+.mini-slider-content>button {
+    padding: 10px 14px;
+}
+
+.mini-slider-container {
+    position: relative;
+}
+
+.mini-arrow-left,
+.mini-arrow-right {
+    padding: 11px 14px;
+    border-radius: 100px;
+    background-color: #FCBF1B;
+    position: absolute;
+    align-items: center;
+    top: 100px;
+}
+
+.mini-arrow-left {
+    left: -18px;
+}
+
+.mini-arrow-right {
+    right: -18px;
 }
