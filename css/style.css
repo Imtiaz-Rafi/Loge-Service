@@ -409,6 +409,11 @@ footer {
     padding-bottom: 25px;
 }
 
+.footer-contact>li:last-child,
+.footer-links>li:last-child {
+    padding-bottom: 0px;
+}
+
 .footer-contact>li>a {
     width: 230px;
     font-size: 17px;
@@ -422,7 +427,7 @@ footer {
 }
 
 .footer-contact>li>p {
-    
+
     font-size: 13px;
     line-height: 18px;
     color: #7F7F7F;
