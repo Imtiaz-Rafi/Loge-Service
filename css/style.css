@@ -76,6 +76,8 @@ h4 {
     color: #222222;
     border-radius: 2px;
     text-transform: uppercase;
+    font-size: 11px;
+    line-height: 11px;
 }
 
 .yellow-color {
@@ -93,7 +95,7 @@ h4 {
     margin-top: 20px;
 }
 
-.logo {
+.top-nav>.logo {
     padding: 23.75px 0px;
 }
 
@@ -356,4 +358,33 @@ h4 {
     line-height: 18px;
     color: #EDA71D;
     padding-bottom: 23px;
+}
+
+footer {
+    content: "";
+    background: url(../images/footer-bg.png)no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.logo-socials {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.logo-socials>.logo {
+    align-items: center;
+    display: flex;
+    gap: 30px;
+}
+
+.footer-content {
+    padding-top: 89px;
+    padding-bottom: 111px;
+}
+
+.logo-socials>.social-links {
+    display: flex;
+    gap: 25px;
 }
