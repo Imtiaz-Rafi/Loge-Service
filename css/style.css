@@ -310,6 +310,7 @@ h4 {
 }
 
 .mini-slider-content>h3 {
+    width: 375px;
     padding-bottom: 15px;
 }
 
@@ -342,4 +343,17 @@ h4 {
 
 .mini-arrow-right {
     right: -18px;
+}
+
+.mini-list-text {
+    font-size: 16px;
+    line-height: 21px;
+    padding-bottom: 5px;
+}
+
+.mini-list-date {
+    font-size: 14px;
+    line-height: 18px;
+    color: #EDA71D;
+    padding-bottom: 23px;
 }
