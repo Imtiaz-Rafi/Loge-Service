@@ -195,6 +195,22 @@ h4 {
     gap: 60px;
 }
 
+.wd-30 {
+    width: 30%;
+}
+
+.wd-70 {
+    width: 70%;
+}
+
+.wd-50 {
+    width: 50%;
+}
+
+.wd-100 {
+    width: 100%;
+}
+
 /* Banner */
 
 .banner {
@@ -627,6 +643,53 @@ footer {
     border-bottom: 3px solid #FCBF1B;
 }
 
+.contact-items {}
+
+.contact-items>h3,
+.contact-items>h4 {
+    padding-bottom: 9px;
+}
+
+.frequent-question {}
+
+.frequent-qstn-flex {}
+
+.frequent-qstn-flex>h2,
+.contact-form-contents>h2 {
+    text-transform: uppercase;
+}
+
+.frequent-qstn-flex>.qstn-right-list {}
+
+.qstn-right-list>ul>li {
+    font-size: 18px;
+    line-height: 23px;
+    padding-bottom: 30px;
+}
+
+.qstn-right-list>ul>li::before {
+    content: "";
+    background: url(../images/question-gray-icon.png)no-repeat;
+    background-size: 20px;
+    padding-right: 30px;
+    background-position: center left;
+}
+
+.qstn-right-list>ul>.qstn-marked::before {
+    content: "";
+    background: url(../images/question-yellow-icon.png)no-repeat;
+    background-size: 20px;
+    padding-right: 30px;
+    background-position: center left;
+}
+
+.qstn-right-list>p {
+    font-size: 18px;
+    line-height: 23px;
+    padding-bottom: 30px;
+}
+
+
 
 
 @media only screen and (max-width: 768px) {
@@ -809,6 +872,13 @@ footer {
 
     .gap-60 {
         gap: 40px;
+    }
+
+    .wd-30,
+    .wd-70,
+    .wd-50,
+    .wd-100 {
+        width: 100%;
     }
 
     .mini-slider-content {
