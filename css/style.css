@@ -187,6 +187,9 @@ h4 {
     transition: all 0.3s ease-in-out;
 }
 
+.pd-bt-20 {
+    padding-bottom: 20px;
+}
 
 /* Banner */
 
@@ -473,6 +476,85 @@ footer {
     font-size: 14px;
     line-height: 18px;
 }
+
+
+/* Breadcrumb */
+.breadcrumb {
+    text-transform: uppercase;
+    background: url(../images/breadcrumb.png);
+    padding: 33px 0px 35px 0px;
+}
+
+.breadcrumb-list {
+    display: flex;
+    align-items: center;
+}
+
+.breadcrumb-list>li>a {
+    font-size: 11px;
+    line-height: 13px;
+}
+
+.breadcrumb-list>li>a:hover {
+    text-decoration: underline;
+}
+
+.breadcrumb-list>li>a::after {
+    content: "";
+    background: url(../images/breadcrumb-arrow.png)no-repeat;
+    background-size: 6px;
+    padding-right: 26px;
+    background-position: center center;
+}
+
+.breadcrumb-list>li:last-child a::after {
+    display: none;
+}
+
+.breadcrum-right {
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.loge-service-desc {
+    width: 350px;
+}
+
+.loge-service-desc>h3 {
+    padding-bottom: 31px;
+}
+
+.loge-service-list {}
+
+.loge-service-list>h1 {
+    display: flex;
+    align-items: flex-start;
+    padding-bottom: 42px;
+}
+
+.loge-service-list>h1>.est {
+    font-size: 17px;
+    line-height: 18px;
+    margin-right: 5px;
+}
+
+.loge-service-list>ul>li {
+    padding-left: 34px;
+    padding-bottom: 17px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 @media only screen and (max-width: 768px) {
