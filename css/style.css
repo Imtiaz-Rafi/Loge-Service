@@ -543,9 +543,23 @@ footer {
     padding-bottom: 17px;
 }
 
+.choose-us-contents {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 60px;
+}
 
+.choose-us-desc {
+    width: 30%;
+}
 
+.choose-us-desc>h4 {
+    padding-bottom: 11px;
+}
 
+.choose-us-desc>p {
+    color: #7F7F7F;
+}
 
 
 
