@@ -94,6 +94,21 @@ h4 {
     justify-content: space-between;
 }
 
+.animate {
+    animation: transitionLeft 0.75s;
+}
+
+@keyframes transitionLeft {
+    from {
+        transform: translateX(100%);
+    }
+
+    to {
+        transform: translateX(0px);
+    }
+}
+
+
 /* Top Nav */
 .top-nav {
     align-items: center;
