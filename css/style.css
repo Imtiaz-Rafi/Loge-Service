@@ -200,7 +200,7 @@ h4 {
 }
 
 .wd-70 {
-    width: 70%;
+    width: 777px;
 }
 
 .wd-50 {
@@ -716,6 +716,85 @@ footer {
     padding: 16.5px 0px;
 }
 
+.single-blog {}
+
+.blog-left {}
+
+.blog-left>h2 {
+    padding-bottom: 92px;
+}
+
+.blog-left>img {
+    width: 100%;
+}
+
+.single-blog-desc {
+    padding: 60px 0px;
+}
+
+.single-blog-desc {}
+
+.single-blog-header {
+    font-size: 26px;
+    line-height: 31px;
+    padding-bottom: 24px;
+}
+
+.blog-text-top,
+.blog-text-bottom {
+    padding-bottom: 22px;
+}
+
+.blog-pic-flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.related-post>p,
+.special-offers>p {
+    font-size: 16px;
+    line-height: 16px;
+    text-transform: uppercase;
+    padding-left: 14px;
+    margin-bottom: 30px;
+    border-left: 4px solid #FCBF1B;
+}
+
+.related-post {
+    padding-bottom: 57px;
+    padding-top: 130px;
+}
+
+.special-offers>.custom-transport {
+    content: "";
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/blog-5.png)no-repeat;
+    background-size: cover;
+    padding-top: 103px;
+    padding-bottom: 59px;
+    text-align: center;
+    margin-bottom: 30px;
+
+}
+
+.special-offers>.warehousing-storage {
+    content: "";
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/blog-2.png)no-repeat;
+    background-size: cover;
+    padding-top: 103px;
+    padding-bottom: 59px;
+    text-align: center;
+
+}
+
+.special-offers>.custom-transport>h3,
+.special-offers>.warehousing-storage>h3 {
+    margin: auto;
+    color: white;
+    width: 245px;
+}
+
 @media only screen and (max-width: 768px) {
     .container {
         width: 100%
@@ -1050,5 +1129,21 @@ footer {
     .input-flex {
         flex-direction: column;
         gap: 0px;
+    }
+
+    .blog-left>h2 {
+        font-size: 28px;
+        line-height: 36px;
+        padding-bottom: 40px;
+    }
+
+    .single-blog,
+    .blog-pic-flex {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .related-post {
+        padding-top: 30px;
     }
 }
