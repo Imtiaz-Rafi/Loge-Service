@@ -252,6 +252,15 @@ h4 {
     transform: translate(-50%, -50%);
 }
 
+.slider-nav-arrows {
+    position: absolute;
+    top: 50%;
+    transform: translate(0%, -50%);
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
 .banner-items>h1 {
     padding: 15px 0px;
 }
@@ -271,7 +280,7 @@ h4 {
 }
 
 .banner-bottom {
-    padding-top: 6px;
+    padding: 5px 0px;
     text-align: center;
 }
 
@@ -296,31 +305,21 @@ h4 {
         url(../images/shipping.png) no-repeat;
 }
 
-.warehouse,
-.transport,
-.shipping {
+.banner-overlay {
+    height: 30vh;
     width: 33%;
     background-size: cover;
     background-position: center center;
-    align-items: center;
-    padding-top: 108px;
-    padding-bottom: 65px;
+    position: relative;
 }
 
-.warehouse>h3 {
-    width: 245px;
-    margin: auto;
+.banner-overlay>h3 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
 }
 
-.transport>h3 {
-    width: 184px;
-    margin: auto;
-}
-
-.shipping>h3 {
-    width: 190px;
-    margin: auto;
-}
 
 /* Facilities */
 .section-header {
@@ -979,6 +978,12 @@ footer {
         padding-bottom: 24.51px;
     }
 
+    .slider-nav-arrows>img {
+        width: auto;
+        height: 24px;
+    }
+
+    /* To be deleted */
     .slider-left-arrow {
         align-items: center;
     }
@@ -988,15 +993,14 @@ footer {
         width: 11.43px;
     }
 
+    /* To be deleted */
     .banner-bottom {
         padding-top: 10px;
         grid-area: 10px;
         flex-direction: column;
     }
 
-    .warehouse,
-    .transport,
-    .shipping {
+    .banner-overlay {
         width: 100%;
         margin-bottom: 10px;
     }
