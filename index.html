@@ -10,9 +10,11 @@
 </head>
 
 <body>
+    <!-- Navbar Section -->
     <nav>
         <div class="container">
-            <div class="top-nav flex-sp-between">
+            <!-- Top Nav -->
+            <div class="top-nav flex-sp-between align-center">
                 <div class="logo">
                     <a href="index.html">
                         <img src="./images/logo.png" alt="logo">
@@ -36,69 +38,98 @@
                     </div>
                 </div>
             </div>
-            <ul class="navbar flex-sp-between">
-                <li> <a class="selected" href="index.html">Home</a>
+            <!-- Navbar -->
+
+            <ul class="navbar">
+                <li> <a class="selected" href="index.html">
+                        <p>Home</p>
+                    </a>
                 </li>
-                <li> <a href="about.html">About</a></li>
-                <li> <a href="services.html">Logistic Services</a></li>
-                <li> <a href="#">Vehicle Fleet</a></li>
-                <li> <a href="#">Storage</a></li>
-                <li> <a href="blog.html">Blog</a></li>
-                <li> <a href="contact.html">Contact</a></li>
+                <li> <a href="about.html">
+                        <p>About</p>
+                    </a></li>
+                <li> <a href="services.html">
+                        <p>Logistic Services</p>
+                    </a></li>
+                <li> <a href="#">
+                        <p>Vehicle Fleet</p>
+                    </a></li>
+                <li> <a href="#">
+                        <p>Storage</p>
+                    </a></li>
+                <li> <a href="blog.html">
+                        <p>Blog</p>
+                    </a></li>
+                <li> <a href="contact.html">
+                        <p>Contact</p>
+                    </a></li>
             </ul>
         </div>
     </nav>
-    <section class="banner pd-lr-21">
-        <div class="banner-contents container flex-sp-between">
-            <div class="slider-left-arrow">
-                <img src="./images/slider-left-arrow.png" alt="slider left">
-            </div>
-            <div class="banner-items">
-                <h1 class="white-color">Affordable air freight</h1>
-                <p class="white-color">Get 25% off for all air transport services!</p>
-                <button class="btn offer-btn">View Offer</button>
-            </div>
-            <div class="slider-right-arrow">
-                <img src="./images/slider-right-arrow.png" alt="slider right">
+    <!-- Banner Section -->
+    <section class="banner">
+        <div class="container">
+            <div class="banner-contents">
+                <div class="banner-items">
+                    <div class="banner-header">
+                        <h1 class="white-color">Affordable air freight</h1>
+                    </div>
+                    <div class="banner-tagline">
+                        <p class="white-color">Get 25% off for all air transport services!</p>
+
+                    </div>
+                    <button class="btn offer-btn">View Offer</button>
+                </div>
+                <div class="slider-nav-arrows">
+                    <img src="./images/slider-left-arrow.png" alt="slider left">
+                    <img src="./images/slider-right-arrow.png" alt="slider right">
+                </div>
             </div>
         </div>
+
     </section>
-    <section class="banner-bottom flex-sp-between">
-        <div class="warehouse">
+    <!-- Banner Bottom -->
+    <section class="banner-cards flex-sp-between">
+        <div class="banner-overlay warehouse">
             <h3 class="white-color">Warehousing & Storage Services</h3>
         </div>
-        <div class="transport white-color">
+        <div class="banner-overlay transport">
             <h3 class="white-color">Custom Transport Solutions</h3>
         </div>
-        <div class="shipping white-color">
+        <div class="banner-overlay shipping">
             <h3 class="white-color">Cleverly Combined Shipping</h3>
         </div>
     </section>
-    <section class="facilities pd-tb-82 gray-border-bottom pd-lr-21">
+
+    <!-- Facilities -->
+    <section class="facilities pd-tb-80 gray-border-bottom">
         <div class="container">
             <div class="section-header ">
                 <h2>Loge service</h2>
                 <p>Fast & safe shipping. Every time. Everywhere.</p>
             </div>
             <div class="facilities-contents flex-sp-between">
-                <div class="facilities-items ">
-                    <img src="./images/insurance-logo.png" alt="facility logo">
-                    <h4>Cargo insurance</h4>
-                    <p class="gray-color cargo-insurance">Adipiscing elit - morbi efficitur malesuada commodo dolor amet
+                <div class="facilities-items">
+                    <img class="facility-image" src="./images/insurance-logo.png" alt="facility logo">
+                    <h4 class="facility-name">Cargo insurance</h4>
+                    <p class="facility-text gray-color cargo-insurance">Adipiscing elit - morbi efficitur malesuada
+                        commodo dolor amet
                         nulla glavrida.
                     </p>
                 </div>
                 <div class="facilities-items">
-                    <img src="./images/storage-logo.png" alt="facility logo">
-                    <h4>3000+m2 of storage</h4>
-                    <p class="gray-color m2-storage">Lorem ipsum - amet from dolor adipiscing elit morbi efficitur
+                    <img class="facility-image" src="./images/storage-logo.png" alt="facility logo">
+                    <h4 class="facility-name">3000+m2 of storage</h4>
+                    <p class="facility-text gray-color m2-storage">Lorem ipsum - amet from dolor adipiscing elit morbi
+                        efficitur
                         malesuada ipsum!
                     </p>
                 </div>
                 <div class="facilities-items">
-                    <img src="./images/processing-logo.png" alt="facility logo">
-                    <h4>Minimal processing times</h4>
-                    <p class="gray-color processing-time">Consectetur adipiscing elit - morbi efficitur malesuada
+                    <img class="facility-image" src="./images/processing-logo.png" alt="facility logo">
+                    <h4 class="facility-name">Minimal processing times</h4>
+                    <p class="facility-text gray-color processing-time">Consectetur adipiscing elit - morbi efficitur
+                        malesuada
                         commodo.</p>
                 </div>
                 <ul class="facility-list">
@@ -111,7 +142,9 @@
             </div>
         </div>
     </section>
-    <section class="services-demo-slider pd-tb-82 gray-border-bottom pd-lr-21">
+
+    <!-- Our Services -->
+    <section class="services-demo-slider pd-tb-80 gray-border-bottom">
         <div class="container">
             <div class="section-header ">
                 <h2>Our services</h2>
@@ -119,26 +152,28 @@
             </div>
         </div>
         <div class="mini-slider flex-sp-between">
-            <div class="mini-slider-content-left disp-n">
+            <div class="mini-slider-card-left disp-n">
                 <img src="./images/service-slider-left.png" alt="">
             </div>
-            <div class="container mini-slider-container">
-                <img class="mini-arrow-left" src="./images/left-arrow.png" alt="">
-                <img class="mini-arrow-right" src="./images/right-arrow.png" alt="">
+            <div class="mini-slider-container container">
+                <div class="mini-nav-arrows">
+                    <img class="mini-arrow-left" src="./images/left-arrow.png" alt="">
+                    <img class="mini-arrow-right" src="./images/right-arrow.png" alt="">
+                </div>
                 <div class="flex-sp-between gap-60">
-                    <div class="mini-slider-content">
+                    <div class="mini-slider-card">
                         <img src="./images/freight-management.png" alt="">
                         <h3>Freight management</h3>
                         <p class="gray-color">Quality management of all your logistics.</p>
                         <button class="btn">Services & prices</button>
                     </div>
-                    <div class="mini-slider-content disp-n">
+                    <div class="mini-slider-card disp-n">
                         <img src="./images/vehicle-service.png" alt="">
                         <h3>Vehicle service</h3>
                         <p class="gray-color">Modern vehicle services for your personal & commercial needs.</p>
                         <button class="btn">Services & prices</button>
                     </div>
-                    <div class="mini-slider-content disp-n">
+                    <div class="mini-slider-card disp-n">
                         <img src="./images/partial-shipments.png" alt="">
                         <h3>Partial shipments</h3>
                         <p class="gray-color">We offer flexible partial shipment services.</p>
@@ -146,12 +181,14 @@
                     </div>
                 </div>
             </div>
-            <div class="mini-slider-content-right disp-n">
+            <div class="mini-slider-card-right disp-n">
                 <img src="./images/service-slider-right.png" alt="">
             </div>
         </div>
     </section>
-    <section class="services-demo-slider pd-tb-82 gray-border-bottom pd-lr-21">
+
+    <!-- Vehicle Services -->
+    <section class="services-demo-slider pd-tb-80 gray-border-bottom">
         <div class="container">
             <div class="section-header">
                 <h2>Vehicle fleet</h2>
@@ -163,22 +200,24 @@
                 <img src="./images/vehicle-slider-left.png" alt="">
             </div>
             <div class="container mini-slider-container">
-                <img class="mini-arrow-left" src="./images/left-arrow.png" alt="">
-                <img class="mini-arrow-right" src="./images/right-arrow.png" alt="">
+                <div class="mini-nav-arrows">
+                    <img class="mini-arrow-left" src="./images/left-arrow.png" alt="">
+                    <img class="mini-arrow-right" src="./images/right-arrow.png" alt="">
+                </div>
                 <div class="flex-sp-between gap-60">
-                    <div class="mini-slider-content">
+                    <div class="mini-slider-card">
                         <img src="./images/vw-cargo-van.png" alt="">
                         <h3>VW cargo van</h3>
                         <p class="gray-color">Labore et dolore magna aliqua ad minim veniam dolor amet.</p>
                         <button class="btn">Services & prices</button>
                     </div>
-                    <div class="mini-slider-content disp-n">
+                    <div class="mini-slider-card disp-n">
                         <img src="./images/vw-passenger-van.png" alt="">
                         <h3>VW passenger van</h3>
                         <p class="gray-color">Lorem ipsum dolor sit ame adipi sicing eiusmod tempor</p>
                         <button class="btn">Services & prices</button>
                     </div>
-                    <div class="mini-slider-content disp-n">
+                    <div class="mini-slider-card disp-n">
                         <img src="./images/mercedes-short-truck.png" alt="">
                         <h3>Mercedes short truck</h3>
                         <p class="gray-color">Eiusmod tempor incididunt ut labore et dolore magna aliqua quis nostrud
@@ -192,110 +231,118 @@
             </div>
         </div>
     </section>
-    <section class="news-info pd-tb-82 container pd-lr-21">
-        <div class="section-header">
-            <h2>News & Info</h2>
-            <p>Latest company's news & announcements</p>
-        </div>
-        <div class="news-contents flex-sp-between gap-60">
-            <div class="mini-slider-content">
-                <img src="./images/shipment-2.png" alt="">
-                <h3>Ipsum dolor nulla – magna glavrida from adipiscing</h3>
-                <p class="yellow-color">22nd February 2020</p>
+
+    <!-- News & Info -->
+    <section class="news-info pd-tb-80">
+        <div class="container">
+            <div class="section-header">
+                <h2>News & Info</h2>
+                <p>Latest company's news & announcements</p>
             </div>
-            <div class="mini-slider-content">
-                <img src="./images/cargo-vans.png" alt="">
-                <h3>Tincidunt nisl scelerisque neque</h3>
-                <p class="yellow-color">17th February 2020</p>
-            </div>
-            <div class="mini-slider-content">
-                <ul>
-                    <li>
-                        <p class="mini-list-text">Donec sed – tincidunt nisl scelerisqu fermentum</p>
-                        <p class="mini-list-date">17th February 2020</p>
-                    </li>
-                    <li>
-                        <p class="mini-list-text">From amet to glavrida: 10 lorem ipsm dolor</p>
-                        <p class="mini-list-date">17th February 2020</p>
-                    </li>
-                    <li>
-                        <p class="mini-list-text">Lorem ipsum nulla amet</p>
-                        <p class="mini-list-date">17th February 2020</p>
-                    </li>
-                    <li>
-                        <p class="mini-list-text">New dolor amet: ipsum eget bibendum glavrida</p>
-                        <p class="mini-list-date">17th February 2020</p>
-                    </li>
-                </ul>
-                <button class="btn">More articles</button>
+            <div class="news-contents flex-sp-between gap-60">
+                <div class="mini-slider-card">
+                    <img src="./images/shipment-2.png" alt="">
+                    <h3>Ipsum dolor nulla – magna glavrida from adipiscing</h3>
+                    <p class="yellow-color">22nd February 2020</p>
+                </div>
+                <div class="mini-slider-card">
+                    <img src="./images/cargo-vans.png" alt="">
+                    <h3>Tincidunt nisl scelerisque neque</h3>
+                    <p class="yellow-color">17th February 2020</p>
+                </div>
+                <div class="mini-slider-card">
+                    <ul>
+                        <li>
+                            <p class="mini-list-text">Donec sed – tincidunt nisl scelerisqu fermentum</p>
+                            <p class="mini-list-date">17th February 2020</p>
+                        </li>
+                        <li>
+                            <p class="mini-list-text">From amet to glavrida: 10 lorem ipsm dolor</p>
+                            <p class="mini-list-date">17th February 2020</p>
+                        </li>
+                        <li>
+                            <p class="mini-list-text">Lorem ipsum nulla amet</p>
+                            <p class="mini-list-date">17th February 2020</p>
+                        </li>
+                        <li>
+                            <p class="mini-list-text">New dolor amet: ipsum eget bibendum glavrida</p>
+                            <p class="mini-list-date">17th February 2020</p>
+                        </li>
+                    </ul>
+                    <button class="btn">More articles</button>
+                </div>
             </div>
         </div>
     </section>
-    <footer class="footer pd-lr-21">
-        <div class="footer-content container flex-sp-between">
-            <div class="logo-socials">
-                <a class="logo" href="index.html">
-                    <img src="./images/pngegg 2.png" alt="logo">
-                    <img src="./images/LOGE SERVICE.png" alt="">
-                </a>
-                <ul class="social-links">
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content flex-sp-between">
+                <div class="logo-socials">
+                    <a class="logo" href="index.html">
+                        <img src="./images/pngegg 2.png" alt="logo">
+                        <img src="./images/LOGE SERVICE.png" alt="">
+                    </a>
+                    <ul class="social-links">
+                        <li>
+                            <a href="#">
+                                <img src="./images/twitter-logo.png" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="./images/pinterest-logo.png" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="./images/fb-logo.png" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="./images/linkedin-logo.png" alt="">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <ul class="footer-links">
+                    <li><a href="#">Customs brokerage</a></li>
+                    <li><a href="#">Partial shipments</a></li>
+                    <li><a href="#">Passenger transport</a></li>
+                    <li><a href="#">Tow service</a></li>
+                    <li><a href="#">Vehicle service</a></li>
+                    <li><a href="#">Warehousing</a></li>
+                </ul>
+    
+                <ul class="footer-links">
+                    <li><a href="#">Air freight</a></li>
+                    <li><a href="#">Water freight</a></li>
+                    <li><a href="#">Road freight</a></li>
+                    <li><a href="#">Railway freight</a></li>
+                    <li><a href="#">Freight management</a></li>
+                    <li><a href="#">Demo design system</a></li>
+                </ul>
+                <ul class="footer-contact">
                     <li>
-                        <a href="#">
-                            <img src="./images/twitter-logo.png" alt="">
-                        </a>
+                        <a href="tel:+001 234 7890">+001 234 7890</a>
+                        <p class="detail-text">Mon-Sat: 8:00 – 21:00</p>
                     </li>
                     <li>
-                        <a href="#">
-                            <img src="./images/pinterest-logo.png" alt="">
-                        </a>
+                        <a href="mailto:info@dream-theme.com">info@dream-theme.com</a>
+                        <p class="detail-text">24/7 customer support</p>
                     </li>
                     <li>
-                        <a href="#">
-                            <img src="./images/fb-logo.png" alt="">
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <img src="./images/linkedin-logo.png" alt="">
-                        </a>
+                        <a href="#">3 Rockaway St., New Rochelle, NY 10801</a>
+                        <p class="detail-text">Main office location</p>
                     </li>
                 </ul>
             </div>
-            <ul class="footer-links">
-                <li><a href="#">Customs brokerage</a></li>
-                <li><a href="#">Partial shipments</a></li>
-                <li><a href="#">Passenger transport</a></li>
-                <li><a href="#">Tow service</a></li>
-                <li><a href="#">Vehicle service</a></li>
-                <li><a href="#">Warehousing</a></li>
-            </ul>
-
-            <ul class="footer-links">
-                <li><a href="#">Air freight</a></li>
-                <li><a href="#">Water freight</a></li>
-                <li><a href="#">Road freight</a></li>
-                <li><a href="#">Railway freight</a></li>
-                <li><a href="#">Freight management</a></li>
-                <li><a href="#">Demo design system</a></li>
-            </ul>
-            <ul class="footer-contact">
-                <li>
-                    <a href="tel:+001 234 7890">+001 234 7890</a>
-                    <p class="detail-text">Mon-Sat: 8:00 – 21:00</p>
-                </li>
-                <li>
-                    <a href="mailto:info@dream-theme.com">info@dream-theme.com</a>
-                    <p class="detail-text">24/7 customer support</p>
-                </li>
-                <li>
-                    <a href="#">3 Rockaway St., New Rochelle, NY 10801</a>
-                    <p class="detail-text">Main office location</p>
-                </li>
-            </ul>
+            <div class="copyrights">
+                <p>© Loge Service – 2022. All rights reserved.</p>
+            </div>
         </div>
-        <p class="rights-loge container">
-            © Loge Service – 2022. All rights reserved.
-        </p>
     </footer>
 </body>
 <script src="./js/script.js"></script>
