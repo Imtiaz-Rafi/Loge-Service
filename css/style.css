@@ -428,17 +428,18 @@ h4 {
 }
 
 .mini-slider-card {
-    /* width: 373px; */
+    width: 33%;
     display: flex;
     align-items: flex-start;
     flex-direction: column;
     flex-wrap: wrap;
-
+    padding: 20px 0px;
 }
 
 .mini-slider-card>img,
 .mini-slider-card-left>img,
 .mini-slider-card-right>img {
+    width: 100%;
     padding: 15px 0;
 }
 
@@ -488,18 +489,19 @@ h4 {
 .mini-arrow-right {
     right: -18px;
 } */
-
+.mini-slider-card>ul>li{
+    padding: 10px 0px;
+}
 .mini-list-text {
     font-size: 16px;
     line-height: 21px;
-    padding-bottom: 5px;
+    padding: 5px 0px;
 }
 
 .mini-list-date {
     font-size: 14px;
     line-height: 18px;
     color: #EDA71D;
-    padding-bottom: 23px;
 }
 
 
@@ -521,22 +523,28 @@ footer {
     align-items: center;
     display: flex;
     gap: 30px;
+    padding: 10px 0px;
 }
 
 .footer-content {
-    padding-top: 89px;
-    padding-bottom: 111px;
+    padding: 90px 0px;
+    flex-wrap: wrap;
 }
 
 .logo-socials>.social-links {
+    padding: 10px 0px;
     display: flex;
     gap: 25px;
 }
 
-.footer-links {}
+.footer-links {
+    padding: 10px 0px;
+}
 
-.footer-links>li {
-    padding-bottom: 22px;
+.footer-links>li,
+.footer-contact>li,
+.footer-contact{
+    padding: 10px 0px;
 }
 
 .footer-links>li>a {
@@ -547,10 +555,6 @@ footer {
 
 .footer-links>li>a:hover {
     text-decoration: underline;
-}
-
-.footer-contact>li {
-    padding-bottom: 25px;
 }
 
 .footer-contact>li:last-child,
@@ -577,12 +581,15 @@ footer {
     color: #7F7F7F;
 }
 
-.footer>.rights-loge {
-    padding-bottom: 29px;
-    text-align: right;
-    color: #7F7F7F;
+.copyrights {
+    padding: 30px 0px;
+    
+}
+.copyrights>p{
     font-size: 14px;
     line-height: 18px;
+    color: #7F7F7F;
+    text-align: right;
 }
 
 
@@ -1020,17 +1027,6 @@ footer {
         height: 24px;
     }
 
-    /* To be deleted */
-    .slider-left-arrow {
-        align-items: center;
-    }
-
-    .slider-left-arrow>img,
-    .slider-right-arrow>img {
-        width: 11.43px;
-    }
-
-    /* To be deleted */
     .banner-cards {
         flex-direction: column;
     }
@@ -1044,7 +1040,7 @@ footer {
         display: flex;
         align-items: flex-start;
         flex-direction: column;
-        padding-bottom: 40px;
+        padding-bottom: 20px;
         padding-top: 0px;
     }
 
@@ -1070,9 +1066,9 @@ footer {
         flex-direction: column;
     }
 
-    .facilities-items {
+    /* .facilities-items {
         padding-bottom: 30px;
-    }
+    } */
 
     .cargo-insurance,
     .m2-storage,
@@ -1085,7 +1081,7 @@ footer {
     }
 
     .gap-60 {
-        gap: 40px;
+        gap: 0px;
     }
 
     .wd-30,
@@ -1128,16 +1124,16 @@ footer {
     }
 
     .logo-socials>.social-links {
-        padding-bottom: 60px;
+        /* padding-bottom: 60px; */
     }
 
     .footer-links,
     .footer-contact {
-        padding-bottom: 50px;
+        /* padding-bottom: 50px; */
     }
 
-    .footer>.rights-loge {
-        padding-bottom: 0px;
+    .copyrights>p{
+        /* padding-bottom: 0px; */
         text-align: left;
     }
 
