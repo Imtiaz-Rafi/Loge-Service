@@ -111,7 +111,7 @@ h4 {
     padding: 24px 0px;
 }
 
-.top-nav-right>li {
+.top-nav-right>ul>li {
     padding-left: 15px;
 }
 
@@ -970,7 +970,7 @@ footer {
         transform: translateY(-6px) rotate(-45deg);
     }
 
-    .top-nav-right {
+    .top-nav-right>ul {
         position: fixed;
         left: -100%;
         top: 380px;
@@ -999,7 +999,7 @@ footer {
         margin: 10px 0px;
     }
 
-    .top-nav-right>li>a {
+    .top-nav-right>ul>li>a {
         font-size: 16px;
         line-height: 24px;
         padding: 12px 15px;
@@ -1009,7 +1009,7 @@ footer {
         padding: 0px;
     }
 
-    .top-nav-right>li {
+    .top-nav-right>ul>li {
         padding-left: 0px;
     }
 
@@ -1017,7 +1017,7 @@ footer {
         display: none;
     }
 
-    .top-nav-right.active,
+    .top-nav-right.active ul,
     .navbar.active {
         left: 0;
     }
