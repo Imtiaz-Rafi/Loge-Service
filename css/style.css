@@ -433,7 +433,7 @@ h4 {
     align-items: flex-start;
     flex-direction: column;
     flex-wrap: wrap;
-    padding: 20px 0px;
+    padding: 10px 0px;
 }
 
 .mini-slider-card>img,
@@ -445,16 +445,17 @@ h4 {
 
 .mini-slider-card>h3 {
     /* width: 375px; */
-    padding: 15px 0px;
+    padding: 10px 0px;
 }
 
 .mini-slider-card>p {
     /* width: 335px; */
-    padding-bottom: 25px;
+    padding: 5px 0px;
 }
 
 .mini-slider-card>button {
     padding: 10px 14px;
+    margin: 20px 0px;
 }
 
 .mini-slider-container,
@@ -489,9 +490,10 @@ h4 {
 .mini-arrow-right {
     right: -18px;
 } */
-.mini-slider-card>ul>li{
+.mini-slider-card>ul>li {
     padding: 10px 0px;
 }
+
 .mini-list-text {
     font-size: 16px;
     line-height: 21px;
@@ -543,7 +545,7 @@ footer {
 
 .footer-links>li,
 .footer-contact>li,
-.footer-contact{
+.footer-contact {
     padding: 10px 0px;
 }
 
@@ -583,9 +585,10 @@ footer {
 
 .copyrights {
     padding: 30px 0px;
-    
+
 }
-.copyrights>p{
+
+.copyrights>p {
     font-size: 14px;
     line-height: 18px;
     color: #7F7F7F;
@@ -896,6 +899,12 @@ footer {
     .banner-tagline>p {
         font-size: 24px;
     }
+
+    .mini-arrow-left,
+    .mini-arrow-right {
+        width: 25px;
+        padding: 7.5px 9.5px;
+    }
 }
 
 @media screen and (max-width:992px) {
@@ -913,9 +922,17 @@ footer {
         font-size: 36px;
     }
 
+    .gap-60 {
+        gap: 30px;
+    }
 
     .banner-tagline>p {
         font-size: 18px;
+    }
+
+    .mini-nav-arrows {
+        top: 20%;
+        transform: translate(-50%, -20%);
     }
 }
 
@@ -1103,14 +1120,9 @@ footer {
         flex-direction: column;
     }
 
-    .mini-slider-card>h3 {
-        width: 100%;
-        padding-bottom: 15px;
-    }
-
-    .mini-slider-card>p {
-        width: 100%;
-        padding-bottom: 25px;
+    .mini-nav-arrows {
+        top: 30%;
+        transform: translate(-50%, -30%);
     }
 
     .footer-content {
@@ -1132,7 +1144,7 @@ footer {
         /* padding-bottom: 50px; */
     }
 
-    .copyrights>p{
+    .copyrights>p {
         /* padding-bottom: 0px; */
         text-align: left;
     }
@@ -1190,11 +1202,7 @@ footer {
         width: 115px;
     }
 
-    .mini-arrow-left,
-    .mini-arrow-right {
-        width: 25px;
-        padding: 7.5px 9.5px;
-    }
+
 
     .partner-slider-container>.mini-arrow-left,
     .partner-slider-container>.mini-arrow-right {
