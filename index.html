@@ -41,54 +41,56 @@
                 </div>
             </div>
             <!-- Navbar -->
+            <div class="navbar-wrap">
+                <ul class="navbar">
+                    <li> <a class="selected" href="index.html">
+                            <p>Home</p>
+                        </a>
+                    </li>
+                    <li> <a href="about.html">
+                            <p>About</p>
+                        </a></li>
+                    <li> <a href="services.html">
+                            <p>Logistic Services</p>
+                        </a></li>
+                    <li> <a href="#">
+                            <p>Vehicle Fleet</p>
+                        </a></li>
+                    <li> <a href="#">
+                            <p>Storage</p>
+                        </a></li>
+                    <li> <a href="blog.html">
+                            <p>Blog</p>
+                        </a></li>
+                    <li> <a href="contact.html">
+                            <p>Contact</p>
+                        </a></li>
+                </ul>
+            </div>
 
-            <ul class="navbar">
-                <li> <a class="selected" href="index.html">
-                        <p>Home</p>
-                    </a>
-                </li>
-                <li> <a href="about.html">
-                        <p>About</p>
-                    </a></li>
-                <li> <a href="services.html">
-                        <p>Logistic Services</p>
-                    </a></li>
-                <li> <a href="#">
-                        <p>Vehicle Fleet</p>
-                    </a></li>
-                <li> <a href="#">
-                        <p>Storage</p>
-                    </a></li>
-                <li> <a href="blog.html">
-                        <p>Blog</p>
-                    </a></li>
-                <li> <a href="contact.html">
-                        <p>Contact</p>
-                    </a></li>
-            </ul>
         </div>
     </nav>
     <!-- Banner Section -->
     <section class="banner">
-        <div class="container">
-            <div class="banner-contents">
-                <div class="banner-items">
-                    <div class="banner-header">
-                        <h1 class="white-color">Affordable air freight</h1>
+        <div class="overlay">
+            <div class="container">
+                <div class="banner-contents">
+                    <div class="banner-items">
+                        <div class="banner-header">
+                            <h1 class="white-color">Affordable air freight</h1>
+                        </div>
+                        <div class="banner-tagline">
+                            <p class="white-color">Get 25% off for all air transport services!</p>
+                        </div>
+                        <button class="btn offer-btn">View Offer</button>
                     </div>
-                    <div class="banner-tagline">
-                        <p class="white-color">Get 25% off for all air transport services!</p>
-
+                    <div class="slider-nav-arrows">
+                        <img src="./images/slider-left-arrow.png" alt="slider left">
+                        <img src="./images/slider-right-arrow.png" alt="slider right">
                     </div>
-                    <button class="btn offer-btn">View Offer</button>
-                </div>
-                <div class="slider-nav-arrows">
-                    <img src="./images/slider-left-arrow.png" alt="slider left">
-                    <img src="./images/slider-right-arrow.png" alt="slider right">
                 </div>
             </div>
         </div>
-
     </section>
     <!-- Banner Bottom -->
     <section class="banner-cards flex-sp-between">
@@ -112,35 +114,51 @@
             </div>
             <div class="facilities-contents flex-sp-between">
                 <div class="facilities-items">
-                    <img class="facility-image" src="./images/insurance-logo.png" alt="facility logo">
-                    <h4 class="facility-name">Cargo insurance</h4>
-                    <p class="facility-text gray-color cargo-insurance">Adipiscing elit - morbi efficitur malesuada
-                        commodo dolor amet
-                        nulla glavrida.
-                    </p>
+                    <div class="facility-image">
+                        <img src="./images/insurance-logo.png" alt="facility logo">
+                    </div>
+                    <div class="facility-desc">
+                        <h4 class="facility-name">Cargo insurance</h4>
+                        <p class="facility-text gray-color cargo-insurance">
+                            Adipiscing elit - morbi efficitur malesuada
+                            commodo dolor amet nulla glavrida.
+                        </p>
+                    </div>
+
                 </div>
                 <div class="facilities-items">
-                    <img class="facility-image" src="./images/storage-logo.png" alt="facility logo">
-                    <h4 class="facility-name">3000+m2 of storage</h4>
-                    <p class="facility-text gray-color m2-storage">Lorem ipsum - amet from dolor adipiscing elit morbi
-                        efficitur
-                        malesuada ipsum!
-                    </p>
+                    <div class="facility-image">
+                        <img src="./images/storage-logo.png" alt="facility logo">
+                    </div>
+                    <div class="facility-desc">
+                        <h4 class="facility-name">3000+m2 of storage</h4>
+                        <p class="facility-text gray-color m2-storage">
+                            Lorem ipsum - amet from dolor adipiscing elit
+                            morbi efficiturmalesuada ipsum!
+                        </p>
+                    </div>
                 </div>
                 <div class="facilities-items">
-                    <img class="facility-image" src="./images/processing-logo.png" alt="facility logo">
-                    <h4 class="facility-name">Minimal processing times</h4>
-                    <p class="facility-text gray-color processing-time">Consectetur adipiscing elit - morbi efficitur
-                        malesuada
-                        commodo.</p>
+                    <div class="facility-image">
+                        <img src="./images/processing-logo.png" alt="facility logo">
+                    </div>
+                    <div class="facility-desc">
+                        <h4 class="facility-name">Minimal processing times</h4>
+                        <p class="facility-text gray-color processing-time">
+                            Consectetur adipiscing elit - morbi efficitur
+                            malesuadacommodo.
+                        </p>
+                    </div>
                 </div>
-                <ul class="facility-list">
-                    <li>Careful handling of valuable goods</li>
-                    <li>Optimization Programs</li>
-                    <li>24/7 Technical support</li>
-                    <li>Low operational costs</li>
-                    <li>Employers uniform standards</li>
-                </ul>
+                <div class="facilities-items">
+                    <ul class="facility-list">
+                        <li>Careful handling of valuable goods</li>
+                        <li>Optimization Programs</li>
+                        <li>24/7 Technical support</li>
+                        <li>Low operational costs</li>
+                        <li>Employers uniform standards</li>
+                    </ul>
+                </div>
             </div>
         </div>
     </section>
@@ -154,9 +172,6 @@
             </div>
         </div>
         <div class="mini-slider flex-sp-between">
-            <!-- <div class="mini-slider-card-left disp-n">
-                <img src="./images/service-slider-left.png" alt="">
-            </div> -->
             <div class="mini-slider-container container">
                 <div class="mini-nav-arrows">
                     <img class="mini-arrow-left" src="./images/left-arrow.png" alt="">
@@ -164,28 +179,49 @@
                 </div>
                 <div class="flex-sp-between gap-60">
                     <div class="mini-slider-card">
-                        <img src="./images/freight-management.png" alt="">
-                        <h3>Freight management</h3>
-                        <p class="gray-color">Quality management of all your logistics.</p>
-                        <button class="btn">Services & prices</button>
+                        <div class="card-items">
+                            <div class="card-img">
+                                <img src="./images/freight-management.png" alt="">
+                            </div>
+                            <div class="card-desc">
+                                <h3>Freight management</h3>
+                                <p class="gray-color">Quality management of all your logistics.</p>
+                            </div>
+                        </div>
+                        <div class="card-btn">
+                            <button class="btn">Services & prices</button>
+                        </div>
                     </div>
                     <div class="mini-slider-card disp-n">
-                        <img src="./images/vehicle-service.png" alt="">
-                        <h3>Vehicle service</h3>
-                        <p class="gray-color">Modern vehicle services for your personal & commercial needs.</p>
-                        <button class="btn">Services & prices</button>
+                        <div class="card-items">
+                            <div class="card-img">
+                                <img src="./images/vehicle-service.png" alt="">
+                            </div>
+                            <div class="card-desc">
+                                <h3>Vehicle service</h3>
+                                <p class="gray-color">Modern vehicle services for your personal & commercial needs.</p>
+                            </div>
+                        </div>
+                        <div class="card-btn">
+                            <button class="btn">Services & prices</button>
+                        </div>
                     </div>
                     <div class="mini-slider-card disp-n">
-                        <img src="./images/partial-shipments.png" alt="">
-                        <h3>Partial shipments</h3>
-                        <p class="gray-color">We offer flexible partial shipment services.</p>
-                        <button class="btn">Services & prices</button>
+                        <div class="card-items">
+                            <div class="card-img">
+                                <img src="./images/partial-shipments.png" alt="">
+                            </div>
+                            <div class="card-desc">
+                                <h3>Partial shipments</h3>
+                                <p class="gray-color">We offer flexible partial shipment services.</p>
+                            </div>
+                        </div>
+                        <div class="card-btn">
+                            <button class="btn">Services & prices</button>
+                        </div>
                     </div>
                 </div>
             </div>
-            <!-- <div class="mini-slider-card-right disp-n">
-                <img src="./images/service-slider-right.png" alt="">
-            </div> -->
         </div>
     </section>
 
@@ -198,40 +234,59 @@
             </div>
         </div>
         <div class="mini-slider flex-sp-between">
-            <!-- <div class="mini-slider-content-left disp-n">
-                <img src="./images/vehicle-slider-left.png" alt="">
-            </div> -->
-            <div class="container mini-slider-container">
+            <div class="mini-slider-container container">
                 <div class="mini-nav-arrows">
                     <img class="mini-arrow-left" src="./images/left-arrow.png" alt="">
                     <img class="mini-arrow-right" src="./images/right-arrow.png" alt="">
                 </div>
-                <div class="flex-sp-between gap-60">
+                <div class="mini-cards flex-sp-between gap-60">
                     <div class="mini-slider-card">
-                        <img src="./images/vw-cargo-van.png" alt="">
-                        <h3>VW cargo van</h3>
-                        <p class="gray-color">Labore et dolore magna aliqua ad minim veniam dolor amet.</p>
-                        <button class="btn">Services & prices</button>
+                        <div class="card-items">
+                            <div class="card-img">
+                                <img src="./images/vw-cargo-van.png" alt="">
+                            </div>
+                            <div class="card-desc">
+                                <h3>VW cargo van</h3>
+                                <p class="gray-color">Labore et dolore magna aliqua ad minim veniam dolor amet.</p>
+                            </div>
+                        </div>
+                        <div class="card-btn">
+                            <button class="btn">Services & prices</button>
+                        </div>
                     </div>
                     <div class="mini-slider-card disp-n">
-                        <img src="./images/vw-passenger-van.png" alt="">
-                        <h3>VW passenger van</h3>
-                        <p class="gray-color">Lorem ipsum dolor sit ame adipi sicing eiusmod tempor</p>
-                        <button class="btn">Services & prices</button>
+                        <div class="card-items">
+                            <div class="card-img">
+                                <img src="./images/vw-passenger-van.png" alt="">
+                            </div>
+                            <div class="card-desc">
+                                <h3>VW passenger van</h3>
+                                <p class="gray-color">Lorem ipsum dolor sit ame adipi sicing eiusmod tempor</p>
+                            </div>
+                        </div>
+                        <div class="card-btn">
+                            <button class="btn">Services & prices</button>
+                        </div>
                     </div>
                     <div class="mini-slider-card disp-n">
-                        <img src="./images/mercedes-short-truck.png" alt="">
-                        <h3>Mercedes short truck</h3>
-                        <p class="gray-color">Eiusmod tempor incididunt ut labore et dolore magna aliqua quis nostrud
-                            exercitation. </p>
-                        <button class="btn">Services & prices</button>
+                        <div class="card-items">
+                            <div class="card-img">
+                                <img src="./images/mercedes-short-truck.png" alt="">
+                            </div>
+                            <div class="card-desc">
+                                <h3>Mercedes short truck</h3>
+                                <p class="gray-color">Eiusmod tempor incididunt ut labore et dolore magna aliqua quis
+                                    nostrud exercitation. </p>
+                            </div>
+                        </div>
+                        <div class="card-btn">
+                            <button class="btn">Services & prices</button>
+                        </div>
                     </div>
                 </div>
             </div>
-            <!-- <div class="mini-slider-content-right disp-n">
-                <img src="./images/vehicle-slider-right.png" alt="">
-            </div> -->
         </div>
+        <!-- </div> -->
     </section>
 
     <!-- News & Info -->
@@ -243,14 +298,26 @@
             </div>
             <div class="news-contents flex-sp-between gap-60">
                 <div class="mini-slider-card">
-                    <img src="./images/shipment-2.png" alt="">
-                    <h3>Ipsum dolor nulla – magna glavrida from adipiscing</h3>
-                    <p class="yellow-color">22nd February 2020</p>
+                    <div class="card-items">
+                        <div class="card-img">
+                            <img src="./images/shipment-2.png" alt="">
+                        </div>
+                        <div class="card-desc">
+                            <h3>Ipsum dolor nulla – magna glavrida from adipiscing</h3>
+                            <p class="yellow-color">22nd February 2020</p>
+                        </div>
+                    </div>
                 </div>
                 <div class="mini-slider-card">
-                    <img src="./images/cargo-vans.png" alt="">
-                    <h3>Tincidunt nisl scelerisque neque</h3>
-                    <p class="yellow-color">17th February 2020</p>
+                    <div class="card-items">
+                        <div class="card-img">
+                            <img src="./images/cargo-vans.png" alt="">
+                        </div>
+                        <div class="card-desc">
+                            <h3>Tincidunt nisl scelerisque neque</h3>
+                            <p class="yellow-color">17th February 2020</p>
+                        </div>
+                    </div>
                 </div>
                 <div class="mini-slider-card">
                     <ul>
@@ -271,7 +338,9 @@
                             <p class="mini-list-date">17th February 2020</p>
                         </li>
                     </ul>
-                    <button class="btn">More articles</button>
+                    <div class="card-btn">
+                        <button class="btn">More articles</button>
+                    </div>
                 </div>
             </div>
         </div>
