@@ -608,50 +608,66 @@ footer {
     line-height: 22px;
 }
 
-.loge-service-desc {
-    width: 350px;
+/* About Loge Service */
+
+.loge-service-container {
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 40px 0px;
 }
 
-.loge-service-desc>h3 {
-    padding-bottom: 31px;
+.loge-service-contents {
+    flex: 1;
+    min-width: 250px;
 }
 
-.loge-service-list {}
 
-.loge-service-list>h1 {
+.loge-service-contents>h3 {
+    padding: 20px 0px;
+}
+
+.loge-service-contents>.loge-text {
+    padding: 10px 0px;
+}
+
+.loge-service-contents>.est-font {
     display: flex;
     align-items: flex-start;
-    padding-bottom: 42px;
+    padding: 20px 0px;
+    padding-bottom: 40px;
 }
 
-.loge-service-list>h1>.est {
+.loge-service-contents>h1>.est {
     font-size: 17px;
     line-height: 18px;
     margin-right: 5px;
 }
 
-.loge-service-list>ul>li {
-    padding-left: 34px;
-    padding-bottom: 17px;
+.loge-service-contents>ul>li {
+    padding: 10px 0px;
+    padding-left: 35px;
+}
+
+.loge-img>img {
+    width: 100%;
+}
+
+.choose-us-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
 }
 
 .choose-us-contents {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    height: 280px;
-    gap: 60px;
+    flex: 1;
+    min-width: 300px;
 }
 
-.choose-us-desc {
-    width: 30%;
-}
-
-.choose-us-desc>h4 {
+.choose-us-contents>h4 {
     padding-bottom: 11px;
 }
 
-.choose-us-desc>p {
+.choose-us-contents>p {
     color: #7F7F7F;
 }
 
@@ -1136,38 +1152,27 @@ footer {
         padding-bottom: 13px;
     }
 
-    .loge-service-contents {
+    .loge-service-container {
         flex-direction: column;
+        padding: 0px;
     }
 
-    .loge-service-desc {
-        padding-bottom: 30px;
-    }
-
-    .loge-service-image {
+    .loge-img {
         order: -1;
-        padding-bottom: 20px;
-    }
-
-    .loge-service-image>img {
         width: 100%;
     }
 
-    .loge-service-list>h1 {
+    .loge-service-contents>h1 {
         font-size: 60px;
         line-height: 66px;
     }
 
-    .loge-service-desc {
-        width: 100%;
-    }
-
-    .choose-us-contents {
+    .choose-us-container {
         height: 100%;
         gap: 40px;
     }
 
-    .choose-us-desc {
+    .choose-us-contents {
         width: 100%;
 
     }
