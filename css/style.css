@@ -364,7 +364,8 @@ h4 {
     font-size: 16px;
     line-height: 13px;
     text-transform: uppercase;
-    padding-bottom: 63px;
+    /* padding-bottom: 63px; */
+    gap: 50px;
 }
 
 
@@ -696,6 +697,7 @@ footer {
     display: flex;
     flex-wrap: wrap;
     gap: 60px;
+    padding: 20px 0px;
 }
 
 .pagination {
@@ -1094,10 +1096,6 @@ footer {
         flex-direction: column;
     }
 
-    /* .facilities-items {
-        padding-bottom: 30px;
-    } */
-
     .cargo-insurance,
     .m2-storage,
     .processing-time {
@@ -1149,17 +1147,7 @@ footer {
         padding-bottom: 40px;
     }
 
-    .logo-socials>.social-links {
-        /* padding-bottom: 60px; */
-    }
-
-    .footer-links,
-    .footer-contact {
-        /* padding-bottom: 50px; */
-    }
-
     .copyrights>p {
-        /* padding-bottom: 0px; */
         text-align: left;
     }
 
@@ -1201,12 +1189,6 @@ footer {
 
     }
 
-    .partner-slider-content>img {
-        width: 115px;
-    }
-
-
-
     .partner-slider-container>.mini-arrow-left,
     .partner-slider-container>.mini-arrow-right {
         top: 30px;
@@ -1216,18 +1198,15 @@ footer {
         padding: 10px 20px;
     }
 
-    .mini-arrow-right {
-        right: -15px;
-    }
-
-    .mini-arrow-left {
-        left: -15px;
+    .sub-section-header {
+        gap: 25px;
     }
 
     .contact-info-content {
         flex-direction: column;
         gap: 50px;
     }
+
 
     .frequent-qstn-flex {
         flex-direction: column;
