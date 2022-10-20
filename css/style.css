@@ -1094,10 +1094,6 @@ footer {
         flex-direction: column;
     }
 
-    /* .facilities-items {
-        padding-bottom: 30px;
-    } */
-
     .cargo-insurance,
     .m2-storage,
     .processing-time {
@@ -1148,18 +1144,7 @@ footer {
     .logo-socials>.logo {
         padding-bottom: 40px;
     }
-
-    .logo-socials>.social-links {
-        /* padding-bottom: 60px; */
-    }
-
-    .footer-links,
-    .footer-contact {
-        /* padding-bottom: 50px; */
-    }
-
     .copyrights>p {
-        /* padding-bottom: 0px; */
         text-align: left;
     }
 
@@ -1201,10 +1186,6 @@ footer {
 
     }
 
-    .partner-slider-content>img {
-        width: 115px;
-    }
-
 
 
     .partner-slider-container>.mini-arrow-left,
@@ -1215,15 +1196,7 @@ footer {
     .partner-slider-content {
         padding: 10px 20px;
     }
-
-    .mini-arrow-right {
-        right: -15px;
-    }
-
-    .mini-arrow-left {
-        left: -15px;
-    }
-
+    
     .contact-info-content {
         flex-direction: column;
         gap: 50px;
