@@ -744,12 +744,19 @@ footer {
 }
 
 
-
-.contact-items {}
+.contact-info-content {
+    gap: 10px;
+}
+.contact-items {
+    padding: 40px 0px;
+}
 
 .contact-items>h3,
 .contact-items>h4 {
-    padding-bottom: 9px;
+    padding: 10px 0px;
+}
+.contact-items>p{
+    padding: 5px 0px;
 }
 
 .frequent-question {}
@@ -762,11 +769,14 @@ footer {
 }
 
 .frequent-qstn-flex>.qstn-right-list {}
+.qstn-header{
+    
+}
 
 .qstn-right-list>ul>li {
     font-size: 18px;
     line-height: 23px;
-    padding-bottom: 30px;
+    padding: 15px 0px;
 }
 
 .qstn-right-list>ul>li::before {
@@ -788,7 +798,7 @@ footer {
 .qstn-right-list>p {
     font-size: 18px;
     line-height: 23px;
-    padding-bottom: 30px;
+    padding: 15px 0px;
 }
 
 .input-flex {
@@ -801,8 +811,8 @@ footer {
     border: 1px solid rgba(0, 0, 0, 0.12);
     border-radius: 2px;
     padding: 10px;
-    margin-top: 12px;
-    margin-bottom: 28px;
+    margin-top: 10px;
+    margin-bottom: 30px;
 }
 
 .input-label {
@@ -1261,13 +1271,12 @@ footer {
 
     .contact-info-content {
         flex-direction: column;
-        gap: 50px;
+        
     }
 
 
     .frequent-qstn-flex {
         flex-direction: column;
-        gap: 45px;
     }
 
     .frequent-qstn-flex>h2 {
@@ -1316,5 +1325,10 @@ footer {
         width: 100%;
         padding: 10px 0px;
     }
-
+    .contact-items{
+        padding: 10px 0px;
+    }
+.qstn-right-list{
+    padding: 0px;
+}
 }
