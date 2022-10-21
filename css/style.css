@@ -717,15 +717,17 @@ footer {
     text-align: center;
     align-items: center;
     justify-content: center;
-    padding-top: 60px;
+    padding: 50px 0px;
     gap: 20px;
 }
 
 .pagination>li>a {
+    border-bottom: 3px solid white;
     padding: 0px 5px;
 }
 
-.pagination>li>.selected {
+.pagination>li>.selected,
+.pagination>li>a:hover {
     border-bottom: 3px solid #FCBF1B;
 }
 
@@ -733,9 +735,7 @@ footer {
     width: 5px;
 }
 
-.pagination>li>a:hover {
-    border-bottom: 3px solid #FCBF1B;
-}
+
 
 .contact-items {}
 
@@ -1098,11 +1098,6 @@ footer {
         padding-left: 10px;
         padding-right: 0px;
     }
-
-    .pd-lr-21 {
-        padding: 50px 21px !important;
-    }
-
 
     .facilities-contents {
         flex-direction: column;
