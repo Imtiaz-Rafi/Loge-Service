@@ -358,7 +358,7 @@ h4 {
     border-left: 4px solid #FCBF1B;
 }
 
-.sub-section-header {
+.sub-section-header>ul {
     display: flex;
     flex-wrap: wrap;
     font-size: 16px;
@@ -438,6 +438,18 @@ h4 {
     justify-content: space-between;
     flex-wrap: wrap;
     padding: 10px 0px;
+    flex: 1;
+}
+
+.section-card {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 10px 0px;
+    flex: 1;
+    min-width: 300px;
 }
 
 .card-items>.card-img>img,
@@ -461,7 +473,7 @@ h4 {
     padding: 5px 0px;
 }
 
-.mini-slider-card>.card-btn>button {
+.card-btn>button {
     padding: 10px 14px;
     margin: 20px 0px;
 }
@@ -1110,10 +1122,6 @@ footer {
         overflow: hidden;
     }
 
-    .gap-60 {
-        gap: 0px;
-    }
-
     .wd-30,
     .wd-70,
     .wd-50,
@@ -1198,7 +1206,7 @@ footer {
         padding: 10px 20px;
     }
 
-    .sub-section-header {
+    .sub-section-header>ul {
         gap: 25px;
     }
 
